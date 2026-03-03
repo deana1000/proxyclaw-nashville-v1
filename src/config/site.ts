@@ -1,0 +1,25 @@
+export const siteConfig = {
+  name: "ProxyClaw Nashville",
+  domain: "proxyclaw.io",
+  url: "https://proxyclaw.io",
+  email: "hello@proxyclaw.io",
+  description:
+    "ProxyClaw deploys and manages OpenClaw AI agents for Nashville and Tennessee businesses. On-site setup for sales, marketing, support, and operations workflows.",
+  keywords: [
+    "AI automation Nashville",
+    "AI agents Nashville",
+    "OpenClaw Nashville",
+    "OpenClaw Tennessee",
+    "AI agents Tennessee",
+    "OpenClaw implementation Nashville",
+    "OpenClaw setup Tennessee",
+    "Nashville AI agents",
+    "Tennessee AI agents",
+    "workflow automation Nashville",
+    "AI consulting Nashville",
+    "sales automation Nashville",
+    "content automation Nashville",
+    "customer support automation Nashville",
+    "Middle Tennessee AI automation",
+  ],
+} as const;
