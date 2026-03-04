@@ -240,7 +240,7 @@ export const bookACall = {
     {
       name: "website",
       label: "Website",
-      type: "url" as const,
+      type: "text" as const,
       required: false,
       placeholder: "company.com (optional)",
     },
