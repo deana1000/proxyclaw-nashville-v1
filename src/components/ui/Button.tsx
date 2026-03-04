@@ -12,6 +12,7 @@ type ButtonAsLink = ButtonBaseProps & {
 type ButtonAsButton = ButtonBaseProps & {
   href?: never;
   type?: "submit" | "button";
+  disabled?: boolean;
 };
 
 type ButtonProps = ButtonAsLink | ButtonAsButton;
@@ -42,10 +43,13 @@ export function Button({
     );
   }
 
+  const buttonProps = props as ButtonAsButton;
+
   return (
     <button
-      type={(props as ButtonAsButton).type || "button"}
-      className={`${base} ${variants[variant]} ${className}`}
+      type={buttonProps.type || "button"}
+      disabled={buttonProps.disabled}
+      className={`${base} ${variants[variant]} ${buttonProps.disabled ? "cursor-not-allowed opacity-60" : ""} ${className}`}
     >
       {children}
     </button>
