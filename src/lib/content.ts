@@ -293,6 +293,8 @@ export const footer = {
   smallprint:
     "\u00a9 ProxyClaw Nashville \u2022 On-site AI automation in Nashville and Middle Tennessee",
   links: [
+    { label: "Nashville", href: "/nashville" },
+    { label: "Blog", href: "/blog" },
     { label: "Privacy", href: "/privacy" },
     { label: "Terms", href: "/terms" },
   ],
