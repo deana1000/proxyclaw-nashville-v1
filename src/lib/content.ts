@@ -197,6 +197,30 @@ export const faq = {
       a: "OpenClaw is an open-source framework for deploying AI agents that can use tools, run workflows, and operate with guardrails. We install it, connect your integrations, and maintain it so it\u2019s reliable and secure.",
     },
     {
+      q: "Is there a service that will install OpenClaw for me?",
+      a: "Yes \u2014 that\u2019s exactly what ProxyClaw does. We provide end-to-end managed OpenClaw deployment for Nashville and Middle Tennessee businesses: infrastructure, installation, integrations, security hardening, and ongoing care. You don\u2019t touch the technical side.",
+    },
+    {
+      q: "How much does it cost to deploy OpenClaw?",
+      a: "Our Starter package is $3,000 for Nashville and Franklin \u2014 one OpenClaw agent, up to 3 workflow integrations, security hardening, and a 14-day post-launch support window. Ongoing managed care is $500/month. Workflow expansions are $2,000\u2013$3,000 per project.",
+    },
+    {
+      q: "How do I set up OpenClaw for my business?",
+      a: "You can self-host OpenClaw, but between infrastructure setup, integrations, security hardening, and ongoing maintenance, most business teams end up with a project instead of a reliable system. ProxyClaw handles the entire setup on-site at your office, typically in 1\u20132 weeks, so you go live quickly without a technical lift.",
+    },
+    {
+      q: "OpenClaw vs hiring a virtual assistant \u2014 which is better?",
+      a: "An OpenClaw agent works 24/7, never calls in sick, and costs a fraction of a full-time hire. For structured, repeatable workflows \u2014 CRM updates, follow-up drafts, reporting, intake triage \u2014 an AI agent consistently outperforms a VA. Most ProxyClaw clients use agents for structured ops work and free their human team for higher-judgment tasks.",
+    },
+    {
+      q: "What can OpenClaw automate in a sales workflow?",
+      a: "Call summaries auto-logged to HubSpot or Salesforce with next steps, follow-up email drafts based on deal context, lead triage and routing, pipeline hygiene (stale deal flags, missing field fills, follow-up reminders). Most sales teams recover 5\u201310 hours per week from these workflows alone.",
+    },
+    {
+      q: "Is OpenClaw secure enough for my business?",
+      a: "With proper hardening \u2014 which ProxyClaw handles as part of every deployment \u2014 yes. We configure defined permissions, guardrails, and approval workflows for sensitive agent actions. OpenClaw runs on infrastructure you control, which means your data doesn\u2019t pass through a third-party AI platform.",
+    },
+    {
       q: "Do you work outside Nashville?",
       a: "Nashville-first. We serve Middle Tennessee and do on-site setups in Nashville and surrounding areas. If you\u2019re outside the region, reach out and we\u2019ll tell you what\u2019s possible.",
     },

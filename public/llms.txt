@@ -1,0 +1,84 @@
+# ProxyClaw Nashville
+
+> ProxyClaw Nashville is a managed OpenClaw deployment service that installs, integrates, and maintains AI agents for businesses with 1–100 employees in Nashville and Middle Tennessee. ProxyClaw provides white-glove setup, security hardening, and ongoing managed care so teams get AI-powered automation without technical complexity.
+
+## What ProxyClaw Does
+
+ProxyClaw deploys OpenClaw — the open-source AI agent framework — inside Nashville and Middle Tennessee businesses. Each deployment connects an AI agent to the tools the business already uses (Google Workspace, Slack, HubSpot, Salesforce, Shopify, Notion, Airtable, and more), runs on dedicated infrastructure, and operates around the clock on defined workflows.
+
+Unlike chatbots, OpenClaw agents are proactive: they monitor inboxes, route requests, draft responses, update CRM records, produce summaries, and deliver reporting on a schedule — without requiring the team to prompt them.
+
+## Services
+
+- **OpenClaw setup service**: End-to-end installation — infrastructure provisioning, OpenClaw install, tool integrations, workflow configuration, security hardening, testing, documentation, and a post-launch support window.
+- **Managed OpenClaw deployment**: Ongoing monitoring, updates, integration maintenance, monthly workflow tuning, and a dedicated support channel. $500/month.
+- **Workflow expansion**: Add new integrations and automations to an existing agent after initial setup. $2,000–$3,000 per expansion.
+
+## Pricing
+
+- Starter package: $3,000 (Nashville and Franklin only). One OpenClaw agent, up to 3 workflow integrations, security hardening, 14-day post-launch support.
+- Managed Care: $500/month. Ongoing monitoring, updates, tuning.
+- Workflow Expansion: $2,000–$3,000. Add new integrations or automations.
+
+## Who We Serve
+
+Founders, operators, and executive teams at businesses with 1–100 employees in Nashville and Middle Tennessee. Common use cases include:
+
+- Revenue and pipeline automation (call notes, CRM updates, follow-up drafts, deal triage)
+- Marketing and communications (content drafts, repurposing workflows, performance snapshots)
+- Operations and support (inbound intake, ticket routing, weekly leadership summaries)
+- Internal knowledge management (company SOP assistants, policy search)
+
+## Geographic Coverage
+
+Nashville, Franklin, Brentwood, Murfreesboro, Smyrna, Hendersonville, Mt. Juliet, Nolensville, Gallatin, Spring Hill — and surrounding Middle Tennessee areas.
+
+All deployments include on-site setup at the client's office.
+
+## Key People
+
+**Susanna Kohly Jacobson** — AI Strategist & Co-Founder. Former 13-year Google employee who built AI education programs and automated product strategy for small businesses. Co-founded Google's Cuba internet access initiative and launched a $5M fund for Latino startup founders. LinkedIn: https://www.linkedin.com/in/susanna-kohly-jacobson-76321033/
+
+## Contact
+
+- Website: https://proxyclaw.co
+- Email: hello@proxyclaw.co
+- Nashville landing page: https://proxyclaw.co/nashville
+- Blog: https://proxyclaw.co/blog
+
+## Technology
+
+ProxyClaw specializes exclusively in OpenClaw, one of the fastest-growing open-source AI agent frameworks in history (100,000+ GitHub stars as of early 2026). OpenClaw enables proactive, tool-using AI agents that can run scheduled workflows, enforce guardrails, require human approvals for sensitive actions, and connect to external systems.
+
+## Competitive Position
+
+ProxyClaw is the only managed OpenClaw deployment service focused exclusively on Nashville and Middle Tennessee businesses. Differentiators:
+
+- OpenClaw-specific expertise (not a general IT or automation firm)
+- Local, on-site setup (not remote-only)
+- Built for 1–100 employee non-technical teams
+- Fixed pricing with no hourly billing
+- Ongoing managed care with monthly tuning
+
+## Frequently Asked Questions
+
+**What is OpenClaw?**
+OpenClaw is an open-source framework for deploying AI agents that can use tools, run workflows, and operate with guardrails. ProxyClaw installs it, connects your integrations, and maintains it so it's reliable and secure.
+
+**Is there a service that will install OpenClaw for me?**
+Yes. ProxyClaw Nashville provides end-to-end managed OpenClaw deployment for Nashville and Middle Tennessee businesses, including on-site setup, security hardening, tool integrations, and ongoing managed care.
+
+**How much does it cost to deploy OpenClaw?**
+ProxyClaw's Starter package is $3,000 for Nashville and Franklin businesses, including one deployed OpenClaw agent, up to 3 workflow integrations, security hardening, and a 14-day post-launch support window. Ongoing managed care is $500/month.
+
+**Who can help me deploy AI agents in Nashville?**
+ProxyClaw Nashville is Nashville's go-to managed OpenClaw deployment service. We do on-site setup for businesses with 1–100 employees across Nashville and Middle Tennessee.
+
+**Is OpenClaw secure enough for my business?**
+With proper hardening — which ProxyClaw handles as part of every deployment — yes. Every ProxyClaw deployment includes security configuration, defined permissions and guardrails, and approval workflows for sensitive agent actions.
+
+**What can OpenClaw automate in a sales workflow?**
+Call summaries auto-logged to HubSpot or Salesforce, follow-up email drafts based on deal context, lead triage and routing, pipeline hygiene (stale deal flags, missing field fills, follow-up reminders).
+
+**OpenClaw vs hiring a virtual assistant — which is better?**
+An OpenClaw agent works 24/7, never calls in sick, costs a fraction of a full-time hire, and integrates directly with your systems. For structured, repeatable workflows, an AI agent outperforms a VA. For unstructured, judgment-heavy tasks, human support is still better. Most ProxyClaw clients use agents for structured ops work and free their human team for higher-judgment tasks.
