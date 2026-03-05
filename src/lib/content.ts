@@ -7,16 +7,16 @@ export const nav = {
     { label: "Examples", href: "#examples" },
     { label: "FAQ", href: "#faq" },
   ],
-  cta: { label: "Book a free strategy call", href: "#book" },
+  cta: { label: "Book a Kickoff Call", href: "#book" },
 } as const;
 
 export const hero = {
   eyebrow: "On-site in Nashville \u2022 Local Team \u2022 Managed AI agents",
-  h1: "Your next hire is an AI agent that works 24/7.",
+  h1: "We deploy AI agents for Nashville businesses.",
   subhead:
     "White-glove OpenClaw deployment for founders, operators, and exec teams in Nashville. No technical lift required. We install, integrate, and maintain proactive AI agents that run revenue, marketing, support, and internal ops workflows so your team gets leverage without adding headcount. Built for 1\u2013100 employee teams.",
   bullets: [] as readonly string[],
-  ctaPrimary: { label: "Book a free strategy call", href: "#book" },
+  ctaPrimary: { label: "Book a Kickoff Call", href: "#book" },
   ctaSecondary: { label: "Tell us what to automate", href: "#book" },
   capacityNote: "Limited onboarding slots each month.",
 } as const;
@@ -77,7 +77,7 @@ export const howItWorks = {
   steps: [
     {
       title: "Kickoff call (30 min, free)",
-      text: "You tell us what\u2019s eating your team\u2019s time, what outcomes matter, and which tools you use. We\u2019ll propose the first agent workflow, define boundaries, and give you a fixed quote.",
+      text: "Walk us through your workflows, tools and time drains. By the end of the call, we\u2019ll have your agent scoped and ready to build.",
     },
     {
       title: "Setup (1\u20132 weeks)",
