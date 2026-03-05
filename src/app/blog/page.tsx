@@ -51,24 +51,29 @@ const blogSchema = {
   },
 };
 
-// Upcoming posts seeded from the 90-day content calendar
-const upcomingPosts = [
+const publishedPosts = [
   {
+    slug: "what-is-openclaw",
     title: "What Is OpenClaw? A Business Owner's Guide",
     description:
-      "OpenClaw crossed 100,000 GitHub stars in early 2026 and became one of the fastest-growing open-source projects in history. Here's what it actually is, why it matters for your business, and how it's different from ChatGPT.",
+      "OpenClaw crossed 100,000 GitHub stars in early 2026. Here's what it actually is, what it can do for your business, and how it's different from ChatGPT — no tech background required.",
     keyword: "OpenClaw for business",
     tag: "Guide",
-    comingSoon: true,
+    publishedAt: "March 5, 2026",
   },
   {
+    slug: "openclaw-vs-chatgpt",
     title: "OpenClaw vs ChatGPT: Why Agents Beat Chatbots",
     description:
-      "ChatGPT is a chat interface. OpenClaw is an operator. The difference determines whether AI saves your team hours or just answers questions. We break down the distinction every business owner needs to understand.",
+      "ChatGPT is a chat interface. OpenClaw is an operator. The difference determines whether AI saves your team hours or just answers questions — we break it down clearly.",
     keyword: "OpenClaw vs ChatGPT",
     tag: "Comparison",
-    comingSoon: true,
+    publishedAt: "March 5, 2026",
   },
+];
+
+// Upcoming posts seeded from the 90-day content calendar
+const upcomingPosts = [
   {
     title: "5 Workflows Every Nashville Founder Should Automate",
     description:
@@ -149,31 +154,61 @@ export default function BlogPage() {
         {/* Posts grid */}
         <section className="bg-white px-6 py-16 md:py-20">
           <div className="max-w-4xl mx-auto">
-            <div className="flex items-center justify-between mb-10">
-              <h2 className="text-xl font-semibold text-gray-900">Coming soon — first posts</h2>
-              <span className="text-sm text-gray-500">Publishing weekly starting March 2026</span>
+            {/* Published posts */}
+            <div className="mb-12">
+              <h2 className="text-xl font-semibold text-gray-900 mb-6">Latest posts</h2>
+              <div className="grid gap-6 md:grid-cols-2">
+                {publishedPosts.map((post) => (
+                  <Link
+                    key={post.slug}
+                    href={`/blog/${post.slug}`}
+                    className="group border border-gray-200 rounded-xl p-6 hover:border-gray-300 hover:shadow-md transition-all"
+                  >
+                    <div className="flex items-center justify-between mb-3">
+                      <span
+                        className={`text-xs font-semibold px-2.5 py-1 rounded-full ${tagColors[post.tag] ?? "bg-gray-100 text-gray-700"}`}
+                      >
+                        {post.tag}
+                      </span>
+                      <span className="text-xs text-gray-400">{post.publishedAt}</span>
+                    </div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2 leading-snug group-hover:text-gray-600 transition-colors">
+                      {post.title}
+                    </h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">{post.description}</p>
+                    <p className="mt-4 text-sm font-semibold text-gray-900 group-hover:text-gray-600 transition-colors">
+                      Read →
+                    </p>
+                  </Link>
+                ))}
+              </div>
             </div>
-            <div className="grid gap-6 md:grid-cols-2">
-              {upcomingPosts.map((post) => (
-                <article
-                  key={post.title}
-                  className="border border-gray-100 rounded-xl p-6 hover:border-gray-200 hover:shadow-sm transition-all"
-                >
-                  <div className="flex items-center justify-between mb-3">
-                    <span
-                      className={`text-xs font-semibold px-2.5 py-1 rounded-full ${tagColors[post.tag] ?? "bg-gray-100 text-gray-700"}`}
-                    >
-                      {post.tag}
-                    </span>
-                    <span className="text-xs text-gray-400 font-medium">Coming soon</span>
-                  </div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2 leading-snug">{post.title}</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">{post.description}</p>
-                  <p className="mt-3 text-xs text-gray-400">
-                    Topic: <span className="italic">{post.keyword}</span>
-                  </p>
-                </article>
-              ))}
+
+            {/* Coming soon */}
+            <div>
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-xl font-semibold text-gray-900">Coming soon</h2>
+                <span className="text-sm text-gray-500">Publishing weekly</span>
+              </div>
+              <div className="grid gap-6 md:grid-cols-2">
+                {upcomingPosts.map((post) => (
+                  <article
+                    key={post.title}
+                    className="border border-gray-100 rounded-xl p-6 opacity-70"
+                  >
+                    <div className="flex items-center justify-between mb-3">
+                      <span
+                        className={`text-xs font-semibold px-2.5 py-1 rounded-full ${tagColors[post.tag] ?? "bg-gray-100 text-gray-700"}`}
+                      >
+                        {post.tag}
+                      </span>
+                      <span className="text-xs text-gray-400 font-medium">Coming soon</span>
+                    </div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2 leading-snug">{post.title}</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">{post.description}</p>
+                  </article>
+                ))}
+              </div>
             </div>
 
             {/* Subscribe nudge */}

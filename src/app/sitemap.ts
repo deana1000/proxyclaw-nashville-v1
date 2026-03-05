@@ -23,5 +23,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 0.8,
     },
+    {
+      url: `${base}/blog/what-is-openclaw`,
+      lastModified: new Date("2026-03-05"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${base}/blog/openclaw-vs-chatgpt`,
+      lastModified: new Date("2026-03-05"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
   ];
 }
